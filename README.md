@@ -11,7 +11,12 @@ The framework is implemented in Jupyter Notebook environment. The notebook is di
 5. Evaluation
 
 ## Data
-The data used in this notebook is the [Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). The data is also available in the `data` folder.
+The data used in this notebook is the [Banknote Authentication Data Set](https://archive.ics.uci.edu/ml/datasets/banknote+authentication) from the UCI Machine Learning Repository. The data contains 1372 observations of 5 variables. The variables are:
+* variance of Wavelet Transformed image (continuous)
+* skewness of Wavelet Transformed image (continuous)
+* curtosis of Wavelet Transformed image (continuous)
+* entropy of image (continuous)
+* class (integer)
 
 ## Requirements
 The notebook is implemented in Python 3.11. The following libraries are required:
